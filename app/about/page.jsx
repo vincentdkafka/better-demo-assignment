@@ -1,8 +1,8 @@
-import BackedBy from '@/_componentsToUse/BackedBy'
-import ChangesThings from '@/_componentsToUse/ChangesThings'
-import Timeline from '@/_componentsToUse/CompanyTimeline'
-import Mission from '@/_componentsToUse/Mission'
-import RelatedPosts from '@/_componentsToUse/RelatedPosts'
+import BackedBy from '@/app/_componentsToUse/BackedBy'
+import ChangesThings from '@/app/_componentsToUse/ChangesThings'
+import Timeline from '@/app/_componentsToUse/CompanyTimeline'
+import Mission from '@/app/_componentsToUse/Mission'
+import RelatedPosts from '@/app/_componentsToUse/RelatedPosts'
 
 import React from 'react'
 

@@ -1,10 +1,10 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import Header from "@/_componentsToUse/Header";
-import Footer from "@/_componentsToUse/Footer";
-import Navbar from "@/_componentsToUse/Navbar";
-import FooterSecond from "@/_componentsToUse/FooterSecond";
+import Header from "@/app/_componentsToUse/Header";
+import Footer from "@/app/_componentsToUse/Footer";
+import Navbar from "@/app/_componentsToUse/Navbar";
+import FooterSecond from "@/app/_componentsToUse/FooterSecond";
 
 export default function AppShell({ children }) {
   const pathname = usePathname();

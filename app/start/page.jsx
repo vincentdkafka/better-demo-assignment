@@ -1,6 +1,6 @@
-import Benefits from '@/_componentsToUse/Benefits'
-import Hero from '@/_componentsToUse/HeroSecond'
-import Stats from '@/_componentsToUse/Stats'
+import Benefits from '@/app/_componentsToUse/Benefits'
+import Hero from '@/app/_componentsToUse/HeroSecond'
+import Stats from '@/app/_componentsToUse/Stats'
 import React from 'react'
 
 function startpage() {
