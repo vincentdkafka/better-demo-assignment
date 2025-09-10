@@ -7,14 +7,14 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="bg-[#004733] w-full h-[891px] flex flex-col items-center pt-[60px] px-4 relative overflow-hidden"
+      className="bg-[#004733] w-full min-h-[700px] md:min-h-[820px] lg:min-h-[891px] flex flex-col items-center pt-[60px] px-4 relative overflow-hidden"
     >
       <h1 className="text-white font-semibold text-center text-[50px] md:text-[70px] lg:text-[100px] leading-[1.1]">
         The first <br />
         <span className="text-gradient">AI-powered</span> Mortgage
       </h1>
 
-      <p className="text-white text-[22px] font-sans text-center mt-4">
+      <p className="text-white text-base md:text-lg lg:text-[22px] font-sans text-center mt-4 px-4">
         Our tech unlocks lower rates, higher chances of approval,
         <br /> and a lightning‑fast process from approval to closing. Over $100
         billion funded.
@@ -35,8 +35,8 @@ const Hero = () => {
         <Image
           src="/photo.webp"
           alt="Better Mortgage"
-          width={510}
-          height={810}
+          width={420}
+          height={680}
           priority
         />
       </div>

@@ -1,4 +1,4 @@
-import LogoBetter from "./logo";
+import LogoBetter from "./Logo";
 
 const Footer = () => {
   const linkSections = [
@@ -59,17 +59,13 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex justify-between w-full gap-x-10">
-          {" "}
-          {/* Removed flex-wrap, used gap-x for spacing */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full gap-8">
           {linkSections.map((section, index) => (
             <div key={index} className="flex-1">
-              {" "}
-              {/* flex-1 to make them distribute evenly */}
               <h3 className="font-semibold text-2xl text-gray-900 mb-6">
                 {section.title}
               </h3>
-              <ul className="text-base  text-lg space-y-4">
+              <ul className="text-base md:text-lg space-y-3">
                 {section.links.map((link, i) => (
                   <li key={i}>
                     <a href="#" className="hover:underline transition">

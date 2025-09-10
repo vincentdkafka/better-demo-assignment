@@ -1,6 +1,6 @@
-import Findout from '@/_componentsToUse/findout'
+import Findout from '@/_componentsToUse/Findout'
 import Hero from '@/_componentsToUse/Hero'
-import Qna from '@/_componentsToUse/qna'
+import Qna from '@/_componentsToUse/Qna'
 import Link from 'next/link'
 import React from 'react'
 

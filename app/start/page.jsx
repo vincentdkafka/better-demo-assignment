@@ -1,5 +1,5 @@
-import Benefits from '@/_componentsToUse/benefits'
-import Hero from '@/_componentsToUse/heroSecond'
+import Benefits from '@/_componentsToUse/Benefits'
+import Hero from '@/_componentsToUse/HeroSecond'
 import Stats from '@/_componentsToUse/Stats'
 import React from 'react'
 

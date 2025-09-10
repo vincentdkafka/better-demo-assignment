@@ -1,8 +1,8 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import Header from "@/_componentsToUse/header";
-import Footer from "@/_componentsToUse/footer";
+import Header from "@/_componentsToUse/Header";
+import Footer from "@/_componentsToUse/Footer";
 import Navbar from "@/_componentsToUse/Navbar";
 import FooterSecond from "@/_componentsToUse/FooterSecond";
 
