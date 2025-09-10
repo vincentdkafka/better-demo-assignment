@@ -1,6 +1,5 @@
-import Footer from "@/_componentsToUse/footer";
-import Header from "@/_componentsToUse/header";
 import './global.css'
+import AppShell from "./AppShell";
 
 
 export const metadata = {
@@ -12,9 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header/>
-        {children}
-        <Footer/>
+        <AppShell>
+          {children}
+        </AppShell>
       </body>
     </html>
   );

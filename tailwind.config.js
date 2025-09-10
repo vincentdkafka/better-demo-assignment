@@ -12,6 +12,7 @@ module.exports = {
   	extend: {
       colors: {
         'forest-green': '#017848',
+		'better-green': '#1ee07f',
       },
 			borderRadius: {
 				lg: 'var(--radius)',
